@@ -7,4 +7,5 @@ In both BooleanCourse and GradedCourse you should write a method called Passed.
 The method is supposed to return whether our sample student passes the course.
 The class Project aggregates two boolean courses and two graded courses.
 You can assume that a project is passed if at least three out of the four courses are passed.
+
 Write a method Passed in class Project which implements this passing policy.
