@@ -57,7 +57,7 @@ class MovableCircle implements Movable {
         center.x = center.x + center.xSpeed;
     }
 }
-public class Movable_MovablePoint_MovableCircle {
+public class Movable_MovablePoint_MovableCircle_Interface {
     public static void main(String[] args) {
         MovablePoint  movablepoint1  = new MovablePoint(10, 5, 3, 2);
         MovableCircle movablecircle1 = new MovableCircle(movablepoint1, 4);
